@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding ="utf-8" ?>
+<!--
+/**
+* Copyright (c) 2009, The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License. 
+* You may obtain a copy of the License at 
+*
+*     http://www.apache.org/licenses/LICENSE-2.0 
+*
+* Unless required by applicable law or agreed to in writing, software 
+* distributed under the License is distributed on an "AS IS" BASIS, 
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+* See the License for the specific language governing permissions and 
+* limitations under the License.
+*/
+-->
+<!--
+TOOLS: prd2h-v5.7
+USER: xfb
+DATE: 2017-10-30
+TIME: 05:17:06 (G10T)
+-->
+<resources>
+<!-- Ucs2StringWLen def_appname_container1 - The Container2 app name, default is 'Games'. -->
+    <string name="Def_APPName_Container1" >"Games"</string>
+<!-- Ucs2StringWLen def_ideas_for_operator_container1 - [Fuction]The operator name depend on country, that will define the default icons and url links for MSNGR(msngr) and Mi(imioperator) specified by operators.
+[Precondition] If you want to make this customization effective, SDM Def_Ideas_Use_Default_Link_Container1 should be 0x01(true).
+[Values]valid operator name:
+iTelcel: mexico url array and icon for iTelcel.
+Comcel: columbia url array and icon for Comcel.
+Claro: Claro url array and icon for Claro.
+[Default] The default is null, will use the default ICON and url. -->
+    <string name="Def_Ideas_For_Operator_Container1" >"iTelcel"</string>
+<!-- Byte def_ideas_use_default_link_container1 - [FR/PR]:no
+[Function]:>We defined the default link of all the URLs of Ideas following the definition in CR118205(for Comcel) and 118206(for Telcel). If these links are not changed, just use the default value (0x01). If choose 0x00 for this item, you need manually add URLs for all the applications including (iVideo, iTonos and so on).
+[Value]:0x00:NO, 0x01:YES
+[Special C]:no -->
+    <bool name="Def_Ideas_Use_Default_Link_Container1" >false</bool>
+<!-- AsciiString url_of_app1_container1 - [FR/PR]:2745377
+[Function]:This item defined the default URL for iApps(app1),the URL must begin with "http://". User can manually fill the URL if Def_Ideas_Use_Default is set to 0x00
+[Value]:no
+[Special C]:no -->
+
+    <bool name="Def_Ideas_Customize_Apps_shortCuts">true</bool>
+
+    <string name="url_of_app1_Container1" >"http://www.sina.com.cn"</string>
+<!-- AsciiString url_of_app2_container1 - [FR/PR]:2745377
+[Function]:This item defined the default URL for iJuegos(app2),the URL must begin with "http://". User can manually fill the URL if Def_Ideas_Use_Default is set to 0x00
+[Value]:no
+[Special C]:no -->
+    <string name="url_of_app2_Container1" >"https://www.google.com/2/"</string>
+<!-- AsciiString url_of_app3_container1 - [FR/PR]:2745377
+[Function]:This item defined the default URL for ideasmusik(app3),the URL must begin with "http://". User can manually fill the URL if Def_Ideas_Use_Default is set to 0x00
+[Value]:no
+[Special C]:no -->
+    <string name="url_of_app3_Container1" >"https://www.google.com/3/"</string>
+<!-- AsciiString url_of_app4_container1 - [FR/PR]:2745377
+[Function]:This item defined the default URL for iDeportes(app4),the URL must begin with "http://". User can manually fill the URL if Def_Ideas_Use_Default is set to 0x00
+[Value]:no
+[Special C]:no -->
+    <string name="url_of_app4_Container1" >"https://www.google.com/4/"</string>
+<!-- AsciiString url_of_app5_container1 - [FR/PR]:2745377
+[Function]:This item defined the default URL for PortalMovil(app5),the URL must begin with "http://". User can manually fill the URL if Def_Ideas_Use_Default is set to 0x00
+[Value]:no
+[Special C]:no -->
+    <string name="url_of_app5_Container1" >"https://www.google.com/5/"</string>
+<!-- AsciiString url_of_app6_container1 - [FR/PR]:2745377
+[Function]:This item defined the default URL for iPromociones(app6),the URL must begin with "http://". User can manually fill the URL if Def_Ideas_Use_Default is set to 0x00
+[Value]:no
+[Special C]:no -->
+    <string name="url_of_app6_Container1" >"https://www.google.com/6/"</string>
+<!-- AsciiString url_of_app7_container1 - [FR/PR]:2745377
+[Function]:This item defined the default URL for iVideo(app7),the URL must begin with "http://". User can manually fill the URL if Def_Ideas_Use_Default is set to 0x00
+[Value]:no
+[Special C]:no -->
+    <string name="url_of_app7_Container1" >"https://www.google.com/7/"</string>
+<!-- AsciiString url_of_app8_container1 - [FR/PR]:2745377
+[Function]:This item defined the default URL for MSNGR(app8),the URL must begin with "http://". User can manually fill the URL if Def_Ideas_Use_Default is set to 0x00
+[Value]:no
+[Special C]:no -->
+    <string name="url_of_app8_Container1" >"https://www.google.com/8/"</string>
+<!-- AsciiString url_of_app9_container1 - [FR/PR]:2745377
+[Function]:This item defined the default URL for iPlugger(app9),the URL must begin with "http://" . User can manually fill the URL if Def_Ideas_Use_Default is set to 0x00
+[Value]:no
+[Special C]:no -->
+    <string name="url_of_app9_Container1" >"https://www.google.com/9/"</string>
+<!-- AsciiString url_of_app10_container1 - [FR/PR]:2745377
+[Function]:This item defined the default URL for iOperator(app10),the URL must begin with "http://". User can manually fill the URL if Def_Ideas_Use_Default is set to 0x00
+[Value]:no
+[Special C]:no -->
+    <string name="url_of_app10_Container1" >"https://www.google.com/10/"</string>
+<!-- AsciiString url_of_app11_container1 - [FR/PR]:2745377
+[Function]:This item defined the default URL for iMiOperator(app11),the URL must begin with "http://". User can manually fill the URL if Def_Ideas_Use_Default is set to 0x00
+[Value]:no
+[Special C]:no -->
+    <string name="url_of_app11_Container1" >"https://www.google.com/11/"</string>
+<!-- AsciiString url_of_app12_container1 - [FR/PR]:2745377
+[Function]:This item defined the default URL for iJuegosHD(app12),the URL must begin with "http://". User can manually fill the URL if Def_Ideas_Use_Default is set to 0x00
+[Value]:no
+[Special C]:no -->
+    <string name="url_of_app12_Container1" >"https://www.baidu.com/"</string>
+<!-- AsciiString name_of_app1_container1 - [FR/PR]:2745377
+[Function]:the name of app1(original is iApps) ,User can manually fill the app name  if  Def_Ideas_Use_Default is set to 0x00
+[Value]:no
+[Special C]:no -->
+    <string name="name_of_app1_Container1" >"Sina"</string>
+<!-- AsciiString name_of_app2_container1 - [FR/PR]:2745377
+[Function]:the name of app2(original is iJuegos) ,User can manually fill the app name  if  Def_Ideas_Use_Default is set to 0x00
+[Value]:no
+[Special C]:no -->
+    <string name="name_of_app2_Container1" >"Google2"</string>
+<!-- AsciiString name_of_app3_container1 - [FR/PR]:2745377
+[Function]:the name of app3(original is ideasmusik),User can manually fill the app name  if  Def_Ideas_Use_Default is set to 0x00
+[Value]:no
+[Special C]:no -->
+    <string name="name_of_app3_Container1" >"Google3"</string>
+<!-- AsciiString name_of_app4_container1 - [FR/PR]:2745377
+[Function]:the name of app4(original is ideportes),User can manually fill the app name  if  Def_Ideas_Use_Default is set to 0x00
+[Value]:no
+[Special C]:no -->
+    <string name="name_of_app4_Container1" >"Google4"</string>
+<!-- AsciiString name_of_app5_container1 - [FR/PR]:2745377
+[Function]:the name of app5(original is imovil),User can manually fill the app name  if  Def_Ideas_Use_Default is set to 0x00
+[Value]:no
+[Special C]:no -->
+    <string name="name_of_app5_Container1" >"Google5"</string>
+<!-- AsciiString name_of_app6_container1 - [FR/PR]:2745377
+[Function]:the name of app6(original is ipromociones),User can manually fill the app name  if  Def_Ideas_Use_Default is set to 0x00
+[Value]:no
+[Special C]:no -->
+    <string name="name_of_app6_Container1" >"Google6"</string>
+<!-- AsciiString name_of_app7_container1 - [FR/PR]:2745377
+[Function]:the name of app7(original is ivideo),User can manually fill the app name  if  Def_Ideas_Use_Default is set to 0x00
+[Value]:no
+[Special C]:no -->
+    <string name="name_of_app7_Container1" >"Google7"</string>
+<!-- AsciiString name_of_app8_container1 - [FR/PR]:2745377
+[Function]:the name of app8(original is msngr),User can manually fill the app name  if  Def_Ideas_Use_Default is set to 0x00
+[Value]:no
+[Special C]:no -->
+    <string name="name_of_app8_Container1" >"Google8"</string>
+<!-- AsciiString name_of_app9_container1 - [FR/PR]:2745377
+[Function]:the name of app9(original is plugger),User can manually fill the app name  if  Def_Ideas_Use_Default is set to 0x00
+[Value]:no
+[Special C]:no -->
+    <string name="name_of_app9_Container1" >"Google9"</string>
+<!-- AsciiString name_of_app10_container1 - [FR/PR]:2745377
+[Function]:the name of app10(original is ioperator),User can manually fill the app name  if  Def_Ideas_Use_Default is set to 0x00
+[Value]:no
+[Special C]:no -->
+    <string name="name_of_app10_Container1" >"Google10"</string>
+<!-- AsciiString name_of_app11_container1 - [FR/PR]:2745377
+[Function]:the name of app11(original is imioperator),User can manually fill the app name  if  Def_Ideas_Use_Default is set to 0x00
+[Value]:no
+[Special C]:no -->
+    <string name="name_of_app11_Container1" >"Google11"</string>
+<!-- AsciiString name_of_app12_container1 - [FR/PR]:2745377
+[Function]:the name of app12(original is iJuegosHD),User can manually fill the app name  if  Def_Ideas_Use_Default is set to 0x00
+[Value]:no
+[Special C]:no -->
+    <string name="name_of_app12_Container1" >"Baidu"</string>
+<!-- Byte position_of_app - [FR/PR]:2745377
+[Function]:the order of the app from 0x00 to 0x21
+[Value]:0x10
+[Special C]:no -->
+    <integer name="position_of_app1_Container1" >10</integer>
+<!-- Byte position_of_app2_container1 - [FR/PR]:2745377
+[Function]:the order of the app from 0x00 to 0x21
+[Value]:0x11
+[Special C]:no -->
+    <integer name="position_of_app2_Container1" >11</integer>
+<!-- Byte position_of_app3_container1 - [FR/PR]:2745377
+[Function]:the order of the app from 0x00 to 0x21
+[Value]:0x12
+[Special C]:no -->
+    <integer name="position_of_app3_Container1" >12</integer>
+<!-- Byte position_of_app4_container1 - [FR/PR]:2745377
+[Function]:the order of the app from 0x00 to 0x21
+[Value]:0x13
+[Special C]:no -->
+    <integer name="position_of_app4_Container1" >13</integer>
+<!-- Byte position_of_app5_container1 - [FR/PR]:2745377
+[Function]:the order of the app from 0x00 to 0x21
+[Value]:0x14
+[Special C]:no -->
+    <integer name="position_of_app5_Container1" >14</integer>
+<!-- Byte position_of_app6_container1 - [FR/PR]:2745377
+[Function]:the order of the app from 0x00 to 0x21
+[Value]:0x15
+[Special C]:no -->
+    <integer name="position_of_app6_Container1" >15</integer>
+<!-- Byte position_of_app7_container1 - [FR/PR]:2745377
+[Function]:the order of the app from 0x00 to 0x21
+[Value]:0x16
+[Special C]:no -->
+    <integer name="position_of_app7_Container1" >16</integer>
+<!-- Byte position_of_app8_container1 - [FR/PR]:2745377
+[Function]:the order of the app from 0x00 to 0x21
+[Value]:0x17
+[Special C]:no -->
+    <integer name="position_of_app8_Container1" >17</integer>
+<!-- Byte position_of_app9_container1 - [FR/PR]:2745377
+[Function]:the order of the app from 0x00 to 0x21
+[Value]:0x18
+[Special C]:no -->
+    <integer name="position_of_app9_Container1" >18</integer>
+<!-- Byte position_of_app10_container1 - [FR/PR]:2745377
+[Function]:the order of the app from 0x00 to 0x21
+[Value]:0x19
+[Special C]:no -->
+    <integer name="position_of_app10_Container1" >19</integer>
+<!-- Byte position_of_app11_container1 - [FR/PR]:2745377
+[Function]:the order of the app from 0x00 to 0x21
+[Value]:0x20
+[Special C]:no -->
+    <integer name="position_of_app11_Container1" >20</integer>
+<!-- Byte position_of_app12_container1 - [FR/PR]:2745377
+[Function]:the order of the app from 0x00 to 0x21
+[Value]:0x21
+[Special C]:no -->
+    <integer name="position_of_app12_Container1" >21</integer>
+<!-- Byte reserved1_apk_is_custmized_container1 - [FR/PR]:2745377
+[Function]:Whether custom the  application shortcut in Container1.
+[Value]:0x00:NO, 0x01:YES ,it is Windows live as default
+[Special C]:no -->
+    <bool name="reserved1_apk_is_custmized_Container1" >true</bool>
+<!-- AsciiString reserved1_apk_package_name_container1 - [FR/PR]:2745377
+[Function]:the packageName of the apk that need to be shown in Container1,it is Windows live as default
+[Value]:no
+[Special C]:no -->
+    <string name="reserved1_apk_package_name_Container1" >"com.ini"</string>
+<!-- AsciiString reserved1_apk_class_name_container1 - [FR/PR]:2745377
+[Function]:the className of the apk that need to be shown in Container1,it is Windows live as default
+[Value]:no
+[Special C]:no -->
+    <string name="reserved1_apk_class_name_Container1" >"com.ini.ControllerActivity"</string>
+<!-- AsciiString reserved2_apk_class_name_container1 - [FR/PR]:2745377
+[Function]:the className of the apk that need to be shown in Container1,it is iRadio as default
+[Value]:no
+[Special C]:no -->
+    <string name="reserved2_apk_class_name_Container1" >"com.Mobzilla.Player.MobzillaPlayerActivity"</string>
+<!-- AsciiString reserved3_apk_class_name_container1 - [FR/PR]:2745377
+[Function]:the className of the apk that need to be shown in Container1,it is GPS Telcel as default
+[Value]:no
+[Special C]:no -->
+    <string name="reserved3_apk_class_name_Container1" >"com.telenav.app.android.gpstelcel.TeleNav"</string>
+<!-- AsciiString reserved4_apk_class_name_container1 - [FR/PR]:2745377
+[Function]:the className of the apk that need to be shown in Container1,it is Facebook as default
+[Value]:no
+[Special C]:no -->
+    <string name="reserved4_apk_class_name_Container1" >"com.facebook.katana.LoginActivity"</string>
+<!-- AsciiString reserved5_apk_class_name_container1 - [FR/PR]:2745377
+[Function]:the className of the apk that need to be shown in Container1,it is AVG Antivirus as defaultno
+[Value]:no
+[Special C]:no -->
+    <string name="reserved5_apk_class_name_Container1" >"store.antivirus.ui.AntivirusMainScreen"</string>
+<!-- AsciiString reserved6_apk_class_name_container1 - [FR/PR]:2745377
+[Function]:the className of the apk that need to be shown in Container1,it is Office Suite as default
+[Value]:no
+[Special C]:no -->
+    <string name="reserved6_apk_class_name_Container1" >"com.mobisystems.office.mailRegister.MailRegisterActivity"</string>
+<!-- AsciiString reserved7_apk_class_name_container1 - [FR/PR]:2745377
+[Function]:the className of the apk that need to be shown in Container1,it is GPS Telcel as default
+[Value]:no
+[Special C]:no -->
+    <string name="reserved7_apk_class_name_Container1" >"com.telenav.app.android.gpstelcel.TeleNav"</string>
+<!-- AsciiString reserved8_apk_class_name_container1 - [FR/PR]:2745377
+[Function]:the className of the apk that need to be shown in Container1,it is GPS Telcel as default
+[Value]:no
+[Special C]:no -->
+    <string name="reserved8_apk_class_name_Container1" >"com.telenav.app.android.gpstelcel.TeleNav"</string>
+<!-- AsciiString reserved9_apk_class_name_container1 - [FR/PR]:2745377
+[Function]:the className of the apk that need to be shown in Container1,it is GPS Telcel as default
+[Value]:no
+[Special C]:no -->
+    <string name="reserved9_apk_class_name_Container1" >"com.telenav.app.android.gpstelcel.TeleNav"</string>
+<!-- AsciiString reserved10_apk_class_name_container1 - [FR/PR]:2745377
+[Function]:the className of the apk that need to be shown in Container1,it is GPS Telcel as default
+[Value]:no
+[Special C]:no -->
+    <string name="reserved10_apk_class_name_Container1" >"com.telenav.app.android.gpstelcel.TeleNav"</string>
+<!-- Byte reserved2_apk_is_custmized_container1 - [FR/PR]:2745377
+[Function]:Whether custom the application shortcut in Container1.
+[Value]:0x00:NO, 0x01:YES , it is iRadio as default
+[Special C]:no -->
+    <bool name="reserved2_apk_is_custmized_Container1" >true</bool>
+<!-- Byte reserved3_apk_is_custmized_container1 - [FR/PR]:2745377
+[Function]:Whether custom the application shortcut in Container1.
+[Value]:0x00:NO, 0x01:YES, it is GPS Telcel as default
+[Special C]:no -->
+    <bool name="reserved3_apk_is_custmized_Container1" >true</bool>
+<!-- Byte reserved4_apk_is_custmized_container1 - [FR/PR]:2745377
+[Function]:Whether custom the application shortcut in Container1.
+[Value]:0x00:NO, 0x01:YES, it is Facebook as default
+[Special C]:no -->
+    <bool name="reserved4_apk_is_custmized_Container1" >true</bool>
+<!-- Byte reserved5_apk_is_custmized_container1 - [FR/PR]:2745377
+[Function]:Whether custom the application shortcut in Container1.
+[Value]:0x00:NO, 0x01:YES, it is AVG Antivirus as default
+[Special C]:no -->
+    <bool name="reserved5_apk_is_custmized_Container1" >true</bool>
+<!-- Byte reserved6_apk_is_custmized_container1 - [FR/PR]:2745377
+[Function]:Whether custom the application shortcut in Container1.
+[Value]:0x00:NO, 0x01:YES, it is Office Suite as default
+[Special C]:no -->
+    <bool name="reserved6_apk_is_custmized_Container1" >true</bool>
+<!-- Byte reserved7_apk_is_custmized_container1 - [FR/PR]:2745377
+[Function]:Whether custom the application shortcut in Container1.
+[Value]:0x00:NO, 0x01:YES, it is GPS Telcel as default
+[Special C]:no -->
+    <bool name="reserved7_apk_is_custmized_Container1" >true</bool>
+<!-- Byte reserved8_apk_is_custmized_container1 - [FR/PR]:2745377
+[Function]:Whether custom the application shortcut in Container1.
+[Value]:0x00:NO, 0x01:YES, it is GPS Telcel as default
+[Special C]:no -->
+    <bool name="reserved8_apk_is_custmized_Container1" >true</bool>
+<!-- Byte reserved9_apk_is_custmized_container1 - [FR/PR]:2745377
+[Function]:Whether custom the application shortcut in Container1.
+[Value]:0x00:NO, 0x01:YES, it is GPS Telcel as default
+[Special C]:no -->
+    <bool name="reserved9_apk_is_custmized_Container1" >true</bool>
+<!-- Byte reserved10_apk_is_custmized_container1 - [FR/PR]:2745377
+[Function]:Whether custom the application shortcut in Container1.
+[Value]:0x00:NO, 0x01:YES, it is GPS Telcel as default
+[Special C]:no -->
+    <bool name="reserved10_apk_is_custmized_Container1" >true</bool>
+<!-- AsciiString reserved2_apk_package_name_container1 - [FR/PR]:2745377
+[Function]:the packageName of the apk that need to be shown in Container1,it is iRadio as default
+[Value]:no
+[Special C]:no -->
+    <string name="reserved2_apk_package_name_Container1" >"com.Mobzilla.Player"</string>
+<!-- AsciiString reserved3_apk_package_name_container1 - [FR/PR]:2745377
+[Function]:the packageName of the apk that need to be shown in Container1,it is GPS Telcel as default
+[Value]:no
+[Special C]:no -->
+    <string name="reserved3_apk_package_name_Container1" >"com.telenav.app.android.gpstelcel"</string>
+<!-- AsciiString reserved4_apk_package_name_container1 - [FR/PR]:2745377
+[Function]:the packageName of the apk that need to be shown in Container1,it is Facebook as default
+[Value]:no
+[Special C]:no -->
+    <string name="reserved4_apk_package_name_Container1" >"com.facebook.katana"</string>
+<!-- AsciiString reserved5_apk_package_name_container1 - [FR/PR]:2745377
+[Function]:the packageName of the apk that need to be shown in Container1,it is AVG Antivirus as default
+[Value]:no
+[Special C]:no -->
+    <string name="reserved5_apk_package_name_Container1" >"store.antivirus"</string>
+<!-- AsciiString reserved6_apk_package_name_container1 - [FR/PR]:2745377
+[Function]:the packageName of the apk that need to be shown in Container1,it is Office Suite as default
+[Value]:no
+[Special C]:no -->
+    <string name="reserved6_apk_package_name_Container1" >"com.mobisystems.office"</string>
+<!-- AsciiString reserved7_apk_package_name_container1 - [FR/PR]:2745377
+[Function]:the packageName of the apk that need to be shown in Container1,it is GPS Telcel as default
+[Value]:no
+[Special C]:no -->
+    <string name="reserved7_apk_package_name_Container1" >"com.telenav.app.android.gpstelcel"</string>
+<!-- AsciiString reserved8_apk_package_name_container1 - [FR/PR]:2745377
+[Function]:the packageName of the apk that need to be shown in Container1,it is GPS Telcel as default
+[Value]:no
+[Special C]:no -->
+    <string name="reserved8_apk_package_name_Container1" >"com.telenav.app.android.gpstelcel"</string>
+<!-- AsciiString reserved9_apk_package_name_container1 - [FR/PR]:2745377
+[Function]:the packageName of the apk that need to be shown in Container1,it is GPS Telcel as default
+[Value]:no
+[Special C]:no -->
+    <string name="reserved9_apk_package_name_Container1" >"com.telenav.app.android.gpstelcel"</string>
+<!-- AsciiString reserved10_apk_package_name_container1 - [FR/PR]:2745377
+[Function]:the packageName of the apk that need to be shown in Container1,it is GPS Telcel as default
+[Value]:no
+[Special C]:no -->
+    <string name="reserved10_apk_package_name_Container1" >"com.telenav.app.android.gpstelcel"</string>
+<!-- Byte position_of_reserved - [FR/PR]:2745377
+[Function]:the order of the app from 0x00 to 0x21
+[Value]:0x00
+[Special C]:no -->
+    <integer name="position_of_reserved1_apk_Container1" >0</integer>
+<!-- Byte position_of_reserved2_apk_container1 - [FR/PR]:2745377
+[Function]:the order of the app from 0x00 to 0x21
+[Value]:0x01
+[Special C]:no -->
+    <integer name="position_of_reserved2_apk_Container1" >1</integer>
+<!-- Byte position_of_reserved3_apk_container1 - [FR/PR]:2745377
+[Function]:the order of the app from 0x00 to 0x21
+[Value]:0x02
+[Special C]:no -->
+    <integer name="position_of_reserved3_apk_Container1" >2</integer>
+<!-- Byte position_of_reserved4_apk_container1 - [FR/PR]:2745377
+[Function]:the order of the app from 0x00 to 0x21
+[Value]:0x03
+[Special C]:no -->
+    <integer name="position_of_reserved4_apk_Container1" >3</integer>
+<!-- Byte position_of_reserved5_apk_container1 - [FR/PR]:2745377
+[Function]:the order of the app from 0x00 to 0x21
+[Value]:0x04
+[Special C]:no -->
+    <integer name="position_of_reserved5_apk_Container1" >4</integer>
+<!-- Byte position_of_reserved6_apk_container1 - [FR/PR]:2745377
+[Function]:the order of the app from 0x00 to 0x21
+[Value]:0x05
+[Special C]:no -->
+    <integer name="position_of_reserved6_apk_Container1" >5</integer>
+<!-- Byte position_of_reserved7_apk_container1 - [FR/PR]:2745377
+[Function]:the order of the app from 0x00 to 0x21
+[Value]:0x06
+[Special C]:no -->
+    <integer name="position_of_reserved7_apk_Container1" >6</integer>
+<!-- Byte position_of_reserved8_apk_container1 - [FR/PR]:2745377
+[Function]:the order of the app from 0x00 to 0x21
+[Value]:0x07
+[Special C]:no -->
+    <integer name="position_of_reserved8_apk_Container1" >7</integer>
+<!-- Byte position_of_reserved9_apk_container1 - [FR/PR]:2745377
+[Function]:the order of the app from 0x00 to 0x21
+[Value]:0x08
+[Special C]:no -->
+    <integer name="position_of_reserved9_apk_Container1" >8</integer>
+<!-- Byte position_of_reserved10_apk_container1 - [FR/PR]:2745377
+[Function]:the order of the app from 0x00 to 0x21
+[Value]:0x09
+[Special C]:no -->
+    <integer name="position_of_reserved10_apk_Container1" >9</integer>
+</resources>

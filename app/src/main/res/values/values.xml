@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="columbia_url_array">
+        <item>""</item>
+        <item>""</item>
+        <item>""</item>
+        <item>""</item>
+        <item>""</item>
+        <item>""</item>
+        <item>""</item>
+        <item>""</item>
+        <item>""</item>
+        <item>""</item>
+        <item>""</item>
+        <item>""</item>
+    </string-array>
+    
+    <string-array name="mexico_url_array">
+        <item>http://apps.telcel.com</item>
+        <item>http://juegos.telcel.com</item>
+        <item>http://musica.telcel.com</item>
+        <item>http://deportes.telcel.com</item>
+        <item>http://www.telcel.com</item>
+        <item>http://promo.telcel.com</item>
+        <item>http://videos.telcel.com</item>
+        <item>http://messenger.telcel.com/get</item>
+        <item>http://mx.plugger.com</item>
+        <item>http://email.telcel.com</item>
+        <item>http://mitelcel.telcel.com</item>
+        <item>""</item>
+    </string-array>
+    
+    <string-array name="claro_url_array">
+        <item>""</item>
+        <item>""</item>
+        <item>""</item>
+        <item>""</item>
+        <item>""</item>
+        <item>""</item>
+        <item>""</item>
+        <item>""</item>
+        <item>""</item>
+        <item>""</item>
+        <item>""</item>
+        <item>""</item>
+    </string-array>
+</resources>

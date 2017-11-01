@@ -1,0 +1,25 @@
+<resources>
+    <!--<string name="app_name">Container1</string>-->
+
+    <!--<string name="Def_APPName_Container1">Games</string>-->
+    <string name="app_name">@string/Def_APPName_Container1</string>
+
+    <!--default values for default comstomization-->
+    <string name="activity_not_found">Application is not installed on your smart phone.</string>
+    <string name="iapps">iApps</string>
+    <string name="ijuegos">iJuegos</string>
+    <string name="ideasmusik">ideasmusik</string>
+    <string name="ideportes">iDeportes</string>
+    <string name="imovil">Portal Movil</string>
+    <string name="ipromociones">iPromociones</string>
+    <string name="ivideo">iVideo</string>
+    <string name="msngr">MSNGR</string>
+    <string name="plugger">iPlugger</string>
+    <string name="ioperator">i</string>
+    <string name="imioperator">Mi</string>
+    <string name="iJuegosHD">iJuegosHD</string>
+
+    <!-- SDMs values-->
+    <!--<string name="Def_Ideas_For_Operator_Container1">iTelcel</string>
+    <bool name="Def_Ideas_Use_Default_Link_Container1">true</bool>-->
+</resources>
